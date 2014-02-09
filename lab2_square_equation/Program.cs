@@ -40,7 +40,6 @@ namespace lab2_square_equation
             }
 
             Console.ReadLine();
-        
         }
     }
 }
