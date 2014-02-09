@@ -1,0 +1,6 @@
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\bin\Debug\lab5_read_update_file.exe.config
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\bin\Debug\lab5_read_update_file.exe
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\bin\Debug\lab5_read_update_file.pdb
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\obj\Debug\lab5_read_update_file.csprojResolveAssemblyReference.cache
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\obj\Debug\lab5_read_update_file.exe
+D:\Repos\Visual Studio\cs_Tr1_Console\lab5_read_update_file\obj\Debug\lab5_read_update_file.pdb

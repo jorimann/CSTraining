@@ -1,0 +1,8 @@
+D:\Repos\Visual Studio\lab2_square_equation\bin\Debug\lab2_square_equation.exe.config
+D:\Repos\Visual Studio\lab2_square_equation\bin\Debug\lab2_square_equation.exe
+D:\Repos\Visual Studio\lab2_square_equation\bin\Debug\lab2_square_equation.pdb
+D:\Repos\Visual Studio\lab2_square_equation\obj\Debug\lab2_square_equation.exe
+D:\Repos\Visual Studio\lab2_square_equation\obj\Debug\lab2_square_equation.pdb
+D:\Repos\Visual Studio\git_repo\lab2_square_equation\bin\Debug\lab2_square_equation.exe.config
+D:\Repos\Visual Studio\git_repo\lab2_square_equation\obj\Debug\lab2_square_equation.exe
+D:\Repos\Visual Studio\git_repo\lab2_square_equation\obj\Debug\lab2_square_equation.pdb

@@ -1,0 +1,5 @@
+D:\Repos\Visual Studio\git_repo\lab1_sum_of_1000\bin\Debug\lab1_sum_of_1000.exe.config
+D:\Repos\Visual Studio\git_repo\lab1_sum_of_1000\bin\Debug\lab1_sum_of_1000.exe
+D:\Repos\Visual Studio\git_repo\lab1_sum_of_1000\bin\Debug\lab1_sum_of_1000.pdb
+D:\Repos\Visual Studio\git_repo\lab1_sum_of_1000\obj\Debug\lab1_sum_of_1000.exe
+D:\Repos\Visual Studio\git_repo\lab1_sum_of_1000\obj\Debug\lab1_sum_of_1000.pdb
