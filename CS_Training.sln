@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lection2", "..\cs_Tr1_Console\ConsoleApplication1\Lection2.csproj", "{19D5F19D-8ED0-4382-966E-37C73AB5BE86}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_sum_of_1000", "lab1_sum_of_1000\lab1_sum_of_1000.csproj", "{D9705E5F-866A-493B-8894-06A8F122F50D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_square_equation", "lab2_square_equation\lab2_square_equation.csproj", "{36B4AC46-D1AE-418B-84A6-740EE6E69D70}"
@@ -17,18 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5_read_update_file", "la
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab6_parse_url", "lab6_parse_url\lab6_parse_url.csproj", "{02B7905E-7F47-414C-A7ED-95F27D2E4290}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lection3", "Lection3\Lection3.csproj", "{BA6169E4-9F72-4271-841F-4E6423D662B3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19D5F19D-8ED0-4382-966E-37C73AB5BE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19D5F19D-8ED0-4382-966E-37C73AB5BE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19D5F19D-8ED0-4382-966E-37C73AB5BE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19D5F19D-8ED0-4382-966E-37C73AB5BE86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9705E5F-866A-493B-8894-06A8F122F50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9705E5F-866A-493B-8894-06A8F122F50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9705E5F-866A-493B-8894-06A8F122F50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +45,6 @@ Global
 		{02B7905E-7F47-414C-A7ED-95F27D2E4290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B7905E-7F47-414C-A7ED-95F27D2E4290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B7905E-7F47-414C-A7ED-95F27D2E4290}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA6169E4-9F72-4271-841F-4E6423D662B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA6169E4-9F72-4271-841F-4E6423D662B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA6169E4-9F72-4271-841F-4E6423D662B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA6169E4-9F72-4271-841F-4E6423D662B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
