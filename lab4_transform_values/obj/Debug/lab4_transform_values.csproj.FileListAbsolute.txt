@@ -1,6 +1,0 @@
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\bin\Debug\lab4_transform_values.exe.config
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\bin\Debug\lab4_transform_values.exe
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\bin\Debug\lab4_transform_values.pdb
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\obj\Debug\lab4_transform_values.csprojResolveAssemblyReference.cache
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\obj\Debug\lab4_transform_values.exe
-D:\Repos\Visual Studio\git_repo\lab4_transform_values\obj\Debug\lab4_transform_values.pdb
