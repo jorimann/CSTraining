@@ -26,6 +26,14 @@ namespace lab2_square_equation
             Double b = Convert.ToDouble(Console.ReadLine());
             Double c = Convert.ToDouble(Console.ReadLine());
 
+            if (a==0) //corner case when a=0;
+            {
+                double x = (-c) / b;
+                Console.WriteLine("x = " + x.ToString());
+                Console.ReadLine();
+                return;
+            }
+
             //Calculate discriminant D=b^2 - 4ac
             Double D = b * b - 4 * a * c;
             if (D < 0) //Discriminant is negative, no solutions in real area

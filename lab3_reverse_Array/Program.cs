@@ -12,36 +12,36 @@ namespace lab3_reverse_Array
         {
             Console.WriteLine("Enter the size of array");
             int size = Convert.ToInt32(Console.ReadLine());
-            int[] arr = new int[size]; //our array
-            int[] rev = new int[size]; //reversed array
+            int[] plain_array = new int[size]; //our array
+            int[] reversed_array = new int[size]; //reversed array
             String s = "";
 
             //Fill up initial array
             for (int i = 0; i < size; i++)
             {
                 Console.WriteLine("Enter numbers. " + (size-i).ToString() + " left");
-                arr[i] = Convert.ToInt32(Console.ReadLine());
+                plain_array[i] = Convert.ToInt32(Console.ReadLine());
             }
 
             //Output to console
             s = "";
             for (int i = 0; i < size; i++)
             {
-                s = s + " " + arr[i];
+                s = s + " " + plain_array[i];
             }
             Console.WriteLine("Initial array:" + s);
 
             //reverse array
             for (int i = 0; i < size; i++)
             {
-                rev[i] = arr[size - i - 1];
+                reversed_array[i] = plain_array[size - i - 1];
             }
 
             //output to console
             s = "";
             for (int i = 0; i < size; i++)
             {
-                s = s + " " + rev[i];
+                s = s + " " + reversed_array[i];
             }
             Console.WriteLine("Reversed array:" + s);
             Console.ReadLine();
