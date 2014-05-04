@@ -11,6 +11,10 @@ namespace lab1_sum_of_1000
     {
         static void Main(string[] args)
         {
+
+            System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\test.txt");
+            file.WriteLine("Test");
+            file.Close();
             Console.WriteLine("Enter int number");
             int range = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
