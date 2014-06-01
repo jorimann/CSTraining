@@ -15,12 +15,15 @@ namespace Logger4net
             LoggerCom logger = new LoggerCom();
             //logger.SetTestCaseName("Test Case 1");
             ////logger.SetEnv("UAT2");
+            logger.RecordTestRun("ddf");
             logger.StartTestCase("Test Case 1");
             //logger.SetStepName("Book trade");
             logger.Info("Start batch execution");
             logger.StepInfo("Step1", "Some Info");
             logger.Error("Error");
             logger.Pass("pass");
+            logger.SetLogName("XMLAppender", @"D:\Logger\xml.txt");           
+
             ////logger.info("batch returned 100");
             ////logger.AssertEqual("101", "100");
             ////logger.AssertEqual("90", "90");

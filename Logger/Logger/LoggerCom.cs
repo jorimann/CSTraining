@@ -5,6 +5,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.IO;
 using log4net;
+using log4net.Appender;
 namespace Logger4net
 {
     [Guid("5F8EB648-80E7-4DC3-A401-5CE6DEE569F3")]
@@ -91,6 +92,7 @@ namespace Logger4net
             log4net.GlobalContext.Properties["SiteCode"] = SiteCode;
             log4net.GlobalContext.Properties["myEnv"] = Env;
             log4net.GlobalContext.Properties["StepNumber"] = StepNumber;
+            log4net.ThreadContext.Properties["AdoLevel"] = "OFF";
             //initialize configuration
             //log4net.Config.XmlConfigurator.Configure();
 
@@ -110,6 +112,25 @@ namespace Logger4net
         public void SetLogFileName(String path)
         {
             log4net.ThreadContext.Properties["FileAppenderLogName"] = path;
+        }
+
+        public void RecordTestRun(String TestCase)
+        {
+            //Log.Debug(TestCase);
+            var h = (log4net.Repository.Hierarchy.Hierarchy)LogManager.GetRepository();
+            foreach (IAppender a in h.Root.Appenders)
+            {
+                if (a.Name == "AdoNetAppender_AccessTestCase")
+                {
+                    var logdata = new log4net.Core.LoggingEventData();
+                    logdata.Level = log4net.Core.Level.Debug;
+                    logdata.LoggerName = typeof(LoggerCom).Name;
+                    logdata.Message = TestCase;
+                    logdata.TimeStamp = DateTime.Now;
+                    var logevent = new log4net.Core.LoggingEvent(logdata);
+                    a.DoAppend(logevent);
+                }
+            }
         }
 
         //any additional initializing can require there
@@ -182,6 +203,26 @@ namespace Logger4net
             SetStepName(stepName);
             IncrementStepNumber();
         }
+
+        public Boolean SetLogName(String AppenderName, String FileName)
+        {
+            var h = (log4net.Repository.Hierarchy.Hierarchy)LogManager.GetRepository();
+            foreach (IAppender a in h.Root.Appenders)
+            {
+                if (a.Name == AppenderName)
+                {
+                    FileAppender fa = (FileAppender)a;
+                    //var logFileLocation = string.Format(".\\Logs\\Device_{0}.log", device);
+                    
+                    fa.File = FileName;
+                    fa.ActivateOptions();
+                    a.Close();
+                    return true;                    
+                }
+            }
+            return false;
+        }
+
         public void ExitTest()
         {
             log4net.ThreadContext.Properties["StepNumber"] = "###";

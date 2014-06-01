@@ -33,7 +33,7 @@ namespace Logger4net
             {
                 StringBuilder _Header = new StringBuilder();
                 _Header.Append("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
-                _Header.Append("<?xml-stylesheet href=\"D:\\log.xsl\" type=\"text/xsl\"?>");
+                _Header.Append("<?xml-stylesheet href=\"D:\\Logger\\log.xsl\" type=\"text/xsl\"?>");
                 //_Header.Append("<?xml-stylesheet href=\"D:\\log.xsl\" type=\"html/xsl\"?>");
                 _Header.Append("<logs>");
                 _Header.Append("<header>Started logging at " + DateTime.Now + "</header>" + System.Environment.NewLine);
